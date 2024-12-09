@@ -9,7 +9,7 @@ st.set_page_config(page_title="AI Writing Tool")
 st.title("AI Writing Tool")
 
 
-groq_api_key = "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"  # Replaced with my actual API key
+groq_api_key = "PUT_OWN_API_KEY"  # Replaced with actual API key
 
 # LLM (Model)
 llm = ChatGroq(groq_api_key=groq_api_key, model="llama3-8b-8192")
